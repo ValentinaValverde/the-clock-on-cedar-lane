@@ -2,7 +2,7 @@ import CheckeredPattern from './CheckeredPattern';
 
 export default function Hero() {
   return (
-    <section className="bg-dark-green ">
+    <div className="bg-dark-green ">
       <header className="p-24 text-center h-[80vh] flex flex-col justify-center items-center">
         <h1 className="text-5xl md:text-6xl text-light-green">
           The Clock
@@ -13,6 +13,6 @@ export default function Hero() {
       </header>
 
       <CheckeredPattern rows={2} cols={24} />
-    </section>
+    </div>
   );
 }

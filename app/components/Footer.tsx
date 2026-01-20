@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark-green px-6 py-12 md:py-16">
       <nav className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-light-green">
-        <section>
+        <div>
           <h3 className="font-semibold mb-4">Hours</h3>
           <ul className="space-y-1 text-sm">
             <li>Monday – Saturday</li>
@@ -10,17 +10,17 @@ export default function Footer() {
             <li className="pt-2">Sunday</li>
             <li>Closed</li>
           </ul>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <h3 className="font-semibold mb-4">Location</h3>
           <address className="not-italic text-sm space-y-1">
             <p>1823 Cedar Lane Rd</p>
             <p>Greenville, SC 29607</p>
           </address>
-        </section>
+        </div>
 
-        <section>
+        <div>
           <h3 className="font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-1 text-sm">
             <li>
@@ -29,7 +29,10 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:hello@theclockencedar.com" className="hover:underline">
+              <a
+                href="mailto:hello@theclockencedar.com"
+                className="hover:underline"
+              >
                 hello@theclockencedar.com
               </a>
             </li>
@@ -39,7 +42,7 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </nav>
     </footer>
   );
