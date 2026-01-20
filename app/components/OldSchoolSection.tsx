@@ -1,22 +1,27 @@
-export default function OldSchoolSection() {
+import Image from 'next/image';
+
+export default function Hero() {
   return (
-    <section className="bg-light-green px-6 py-16 md:py-24">
-      <article className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl text-black leading-tight">
-          We made{' '}
-          <em className="italic underline decoration-2 underline-offset-4">
-            old school
-          </em>{' '}
-          look cool.
-        </h2>
-        <p className="mt-6 text-black text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur.
-        </p>
-      </article>
-    </section>
+    <div className="w-[80bw] p-24 text-center flex flex-col justify-center items-center gap-8 mt-24">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl text-black">
+        We make <em className="italic">old school</em> look cool.
+      </h2>
+
+      <p className="max-w-1/2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. 
+      </p>
+
+      <Image
+        src="https://images.pexels.com/photos/12540668/pexels-photo-12540668.png"
+        alt="Delicious food from The Clock on Cedar Lane"
+        width={300}
+        height={300}
+        // className="aspect-square w-full object-cover rounded-lg border border-dark-green"
+        className="w-full h-[400px] object-cover rounded-lg border border-dark-green mt-24"
+      />
+    </div>
   );
 }
