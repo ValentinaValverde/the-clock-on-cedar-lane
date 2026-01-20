@@ -1,8 +1,4 @@
-import Image from 'next/image';
 import CheckeredPattern from './CheckeredPattern';
-
-const PLACEHOLDER_IMAGE =
-  'https://images.pexels.com/photos/12540668/pexels-photo-12540668.png';
 
 export default function Hero() {
   return (
@@ -17,19 +13,6 @@ export default function Hero() {
       </header>
 
       <CheckeredPattern rows={2} cols={24} />
-
-      {/* <figure className="grid grid-cols-2 md:grid-cols-4">
-        {Array.from({ length: 8 }).map((_, index) => (
-          <Image
-            key={index}
-            src={PLACEHOLDER_IMAGE}
-            alt="Delicious food from The Clock on Cedar Lane"
-            width={300}
-            height={300}
-            className="aspect-square w-full object-cover"
-          />
-        ))}
-      </figure> */}
     </section>
   );
 }

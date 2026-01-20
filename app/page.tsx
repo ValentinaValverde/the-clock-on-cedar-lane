@@ -1,4 +1,5 @@
 import Hero from './components/Hero';
+import ImageSection from './components/ImageSection';
 import MenuSection from './components/MenuSection';
 import OldSchoolSection from './components/OldSchoolSection';
 import CTASection from './components/CTASection';
@@ -9,6 +10,7 @@ export default function Home() {
     <>
       <main>
         <Hero />
+        <ImageSection />
         <MenuSection />
         <OldSchoolSection />
         <CTASection />
