@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark-green px-6 py-12 md:py-16">
+    <footer className="bg-black px-6 py-12 md:py-16">
       <nav className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-light-green">
         <div>
           <h3 className="font-semibold mb-4">Hours</h3>
