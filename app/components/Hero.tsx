@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import CheckeredPattern from './CheckeredPattern';
 
-const PLACEHOLDER_IMAGE = "https://images.pexels.com/photos/12540668/pexels-photo-12540668.png";
+const PLACEHOLDER_IMAGE =
+  'https://images.pexels.com/photos/12540668/pexels-photo-12540668.png';
 
 export default function Hero() {
   return (
     <section className="bg-dark-green">
       <header className="px-6 py-12 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl italic text-light-green leading-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-light-green leading-tight">
           The Clock
           <br />
           on Cedar Lane
@@ -17,9 +18,9 @@ export default function Hero() {
         </p>
       </header>
 
-      <CheckeredPattern rows={2} cols={12} />
+      <CheckeredPattern rows={2} cols={24} />
 
-      <figure className="grid grid-cols-2 md:grid-cols-4">
+      {/* <figure className="grid grid-cols-2 md:grid-cols-4">
         {Array.from({ length: 8 }).map((_, index) => (
           <Image
             key={index}
@@ -30,7 +31,7 @@ export default function Hero() {
             className="aspect-square w-full object-cover"
           />
         ))}
-      </figure>
+      </figure> */}
     </section>
   );
 }
