@@ -31,12 +31,12 @@ export default function Navbar() {
         isVisible ? 'translate-y-0' : '-translate-y-[100px]'
       }`}
     >
-      <div className="w-3/4 bg-[var(--light-green)] border border-[var(--dark-green)] py-4 px-8 rounded-full space-x-8 flex justify-between items-center">
+      <div className="w-3/4 bg-light-green border border-dark-green py-4 px-8 rounded-full space-x-8 flex justify-between items-center">
         <p>The Clock on Cedar</p>
 
         <a
           href=""
-          className="bg-black text-[var(--light-green)] py-2 px-8 rounded-full cursor-pointer"
+          className="bg-black text-light-green py-2 px-8 rounded-full cursor-pointer"
         >
           Menu
         </a>
