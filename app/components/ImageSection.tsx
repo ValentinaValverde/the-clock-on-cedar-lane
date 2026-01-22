@@ -5,8 +5,8 @@ const PLACEHOLDER_IMAGE =
 
 export default function ImageSection() {
   return (
-    <div className="w-full flex justify-center p-24">
-      <figure className="w-[80vw] grid grid-cols-2 md:grid-cols-3 gap-8">
+    <div className="w-full flex justify-center py-24">
+      <figure className="w-3/4 grid grid-cols-2 md:grid-cols-3 gap-8">
         {Array.from({ length: 9 }).map((_, index) => (
           <Image
             key={index}
