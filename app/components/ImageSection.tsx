@@ -5,7 +5,10 @@ const PLACEHOLDER_IMAGE =
 
 export default function ImageSection() {
   return (
-    <div className="w-full flex justify-center py-24">
+    <div
+      className="w-full flex justify-center py-24 
+    bg-[linear-gradient(to_bottom,var(--light-green)_0%,var(--light-green)_50%,var(--dark-green)_50%,var(--dark-green)_100%)]"
+    >
       <figure className="w-3/4 grid grid-cols-2 md:grid-cols-3 gap-8">
         {Array.from({ length: 9 }).map((_, index) => (
           <Image
