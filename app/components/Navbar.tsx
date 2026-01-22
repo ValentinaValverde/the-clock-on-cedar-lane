@@ -40,7 +40,7 @@ export default function Navbar() {
 
         <a
           href="#menu"
-          className="bg-black text-light-green py-2 px-8 rounded-full cursor-pointer"
+          className="bg-black text-light-green py-2 px-8 rounded-full cursor-pointer hover:bg-dark-green transition duration-300"
         >
           Menu
         </a>

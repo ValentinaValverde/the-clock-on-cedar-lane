@@ -11,7 +11,7 @@ export default function CTASection() {
         </h2>
         <a
           href=""
-          className="inline-block mt-8 rounded-full bg-dark-green px-8 py-3 text-light-green"
+          className="inline-block mt-8 rounded-full px-8 py-3 text-light-green bg-dark-green hover:bg-black transition duration-300"
         >
           Order Now
         </a>
