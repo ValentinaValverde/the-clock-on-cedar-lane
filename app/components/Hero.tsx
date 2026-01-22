@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="bg-dark-green ">
       <header className="p-24 text-center h-[80vh] flex flex-col justify-center items-center">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl text-light-green genty">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl text-light-green genty pt-12">
           The Clock
           <br />
           on Cedar Lane
