@@ -5,9 +5,8 @@ export default function CTASection() {
         <p className="text-sm md:text-base text-black mb-8">
           Drooling already?
         </p>
-        <h2 className="text-4xl md:text-5xl lg:text-6xl text-black genty">
-          Order online – we&apos;ll
-          <br className="hidden md:block" />
+        <h2 className="text-5xl lg:text-6xl text-black genty">
+          Order online – we&apos;ll <br className="hidden md:block" />
           take care of the rest.
         </h2>
         <a

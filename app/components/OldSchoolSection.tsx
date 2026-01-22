@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="w-full pb-24 pt-48 flex flex-col justify-center items-center">
       <div className="w-3/4  text-center flex flex-col items-center gap-8 ">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl text-black genty">
+        <h2 className="text-5xl lg:text-6xl text-black genty">
           We make old school look cool.
         </h2>
 
