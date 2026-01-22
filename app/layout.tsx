@@ -7,6 +7,7 @@ import localFont from 'next/font/local';
 
 const gentyFont = localFont({
   src: './fonts/GentyDemo-Regular.ttf',
+  variable: '--font-genty',
   display: 'swap',
 });
 
@@ -28,11 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${gentyFont.className} ${poppins.className} antialiased`}
-      >
+      <body className={`${gentyFont.variable} ${poppins.variable} antialiased`}>
         <Navbar />
-        <div className="">{children}</div>
+        <div>{children}</div>
       </body>
     </html>
   );

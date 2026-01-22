@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <div className="w-[80bw] p-24 text-center flex flex-col justify-center items-center gap-8 mt-24">
-      <h2 className="text-3xl md:text-4xl lg:text-5xl text-black">
-        We make <em className="italic">old school</em> look cool.
+      <h2 className="text-4xl md:text-5xl lg:text-6xl text-black genty">
+        We make old school look cool.
       </h2>
 
       <p className="max-w-1/2">

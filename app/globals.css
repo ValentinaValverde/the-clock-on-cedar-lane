@@ -1,8 +1,8 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --dark-green: #33610F;
-  --light-green: #FFFBEB;
+  --dark-green: #33610f;
+  --light-green: #fffbeb;
   --black: #000000;
 }
 
@@ -15,5 +15,10 @@
 body {
   background: var(--light-green);
   color: var(--black);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins-sans), Arial, Helvetica, sans-serif;
+}
+
+.genty {
+  font-family:
+    var(--font-genty), var(--font-poppins-sans), Arial, Helvetica, sans-serif;
 }
