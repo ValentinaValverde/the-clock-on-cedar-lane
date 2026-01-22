@@ -27,7 +27,7 @@ export default function MenuSection() {
 
         {/* menu #1 container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-light-green">
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">
               Cedar Lane Specials
             </p>
@@ -59,7 +59,7 @@ export default function MenuSection() {
             </div>
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Sides</p>
 
             {sidesData.map((data, index) => (
@@ -69,7 +69,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden text-center">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D] text-center">
             <p className="genty text-3xl">Kids&apos; Menu</p>
             <p className="genty text-3xl mb-4">$5.99</p>
 
@@ -87,7 +87,7 @@ export default function MenuSection() {
             </p>
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Drinks</p>
 
             <p className="text-center mb-8">
@@ -107,7 +107,7 @@ export default function MenuSection() {
           <p>Salad instead +$1.00</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-light-green">
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Burgers</p>
 
             <div className="flex justify-end gap-4">
@@ -126,7 +126,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Subs</p>
 
             <div className="flex justify-end gap-4">
@@ -145,7 +145,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Dinners</p>
 
             {dinnersData.map((data, index) => (
@@ -164,7 +164,7 @@ export default function MenuSection() {
             </p>
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Sandwiches</p>
 
             <div className="flex justify-end gap-4">
@@ -183,7 +183,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Salads</p>
 
             {saladsData.map((data, index) => (
@@ -193,7 +193,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Fried Chicken</p>
 
             {friedChickenData.map((data, index) => (
@@ -203,7 +203,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">Clubs</p>
 
             <div className="flex justify-end gap-4">
@@ -222,7 +222,7 @@ export default function MenuSection() {
             ))}
           </div>
 
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+          <div className="border border-light-green border-dashed p-8 rounded-xl overflow-hidden bg-[#2C520D]">
             <p className="text-center genty text-3xl mb-4">
               Breakfast Sandwiches
             </p>
