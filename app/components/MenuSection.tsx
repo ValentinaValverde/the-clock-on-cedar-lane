@@ -1,5 +1,6 @@
 import CheckeredPattern from './CheckeredPattern';
 import MenuRow from './MenuRow';
+import DoublePriceMenuRow from './DoublePriceMenuRow';
 import {
   sidesData,
   burgersData,
@@ -21,7 +22,7 @@ export default function MenuSection() {
         </h2>
 
         {/* menu #1 container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-light-green">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-light-green">
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
             <p className="text-center genty text-3xl">Sides</p>
 
@@ -57,13 +58,43 @@ export default function MenuSection() {
           <p>Onion Rings, 1/2 & 1/2, Tater Tots, or a Veggie instead +$2.00</p>
           <p>Salad instead +$1.00</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-light-green">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-light-green">
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
             <p className="text-center genty text-3xl">Burgers</p>
+
+            <div className="flex justify-end gap-4">
+              <p>Sandwich</p>
+              <p>Plate</p>
+            </div>
+
+            {burgersData.map((data, index) => (
+              <div key={index}>
+                <DoublePriceMenuRow
+                  name={data.name}
+                  sandwichPrice={data.sandwichPrice}
+                  platePrice={data.platePrice}
+                />
+              </div>
+            ))}
           </div>
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
             <p className="text-center genty text-3xl">Subs</p>
+
+            <div className="flex justify-end gap-4">
+              <p>Sandwich</p>
+              <p>Plate</p>
+            </div>
+
+            {subsData.map((data, index) => (
+              <div key={index}>
+                <DoublePriceMenuRow
+                  name={data.name}
+                  sandwichPrice={data.sandwichPrice}
+                  platePrice={data.platePrice}
+                />
+              </div>
+            ))}
           </div>
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
@@ -87,6 +118,21 @@ export default function MenuSection() {
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
             <p className="text-center genty text-3xl">Sandwiches</p>
+
+            <div className="flex justify-end gap-4">
+              <p>Sandwich</p>
+              <p>Plate</p>
+            </div>
+
+            {sandwichesData.map((data, index) => (
+              <div key={index}>
+                <DoublePriceMenuRow
+                  name={data.name}
+                  sandwichPrice={data.sandwichPrice}
+                  platePrice={data.platePrice}
+                />
+              </div>
+            ))}
           </div>
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
@@ -111,6 +157,21 @@ export default function MenuSection() {
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
             <p className="text-center genty text-3xl">Clubs</p>
+
+            <div className="flex justify-end gap-4">
+              <p>Sandwich</p>
+              <p>Plate</p>
+            </div>
+
+            {clubsData.map((data, index) => (
+              <div key={index}>
+                <DoublePriceMenuRow
+                  name={data.name}
+                  sandwichPrice={data.sandwichPrice}
+                  platePrice={data.platePrice}
+                />
+              </div>
+            ))}
           </div>
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
