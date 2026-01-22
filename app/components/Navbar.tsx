@@ -32,7 +32,11 @@ export default function Navbar() {
       }`}
     >
       <div className="w-3/4 bg-light-green border border-dark-green py-4 px-8 rounded-full space-x-8 flex justify-between items-center">
-        <p>The Clock on Cedar</p>
+        <p className="genty text-3xl pt-2 hidden md:block">
+          The Clock on Cedar
+        </p>
+
+        <p className="genty text-3xl pt-2 block md:hidden">The Clock</p>
 
         <a
           href="#menu"
