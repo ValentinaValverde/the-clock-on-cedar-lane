@@ -35,7 +35,7 @@ export default function Navbar() {
         <p>The Clock on Cedar</p>
 
         <a
-          href=""
+          href="#menu"
           className="bg-black text-light-green py-2 px-8 rounded-full cursor-pointer"
         >
           Menu
