@@ -28,16 +28,6 @@ export default function MenuSection() {
         {/* menu #1 container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-light-green">
           <div className="border border-light-green p-8 rounded-xl overflow-hidden">
-            <p className="text-center genty text-3xl mb-4">Sides</p>
-
-            {sidesData.map((data, index) => (
-              <div key={index}>
-                <MenuRow name={data.name} price={data.price} />
-              </div>
-            ))}
-          </div>
-
-          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
             <p className="text-center genty text-3xl mb-4">
               Cedar Lane Specials
             </p>
@@ -67,6 +57,16 @@ export default function MenuSection() {
               </p>
               <p className="font-semibold">$12.99</p>
             </div>
+          </div>
+
+          <div className="border border-light-green p-8 rounded-xl overflow-hidden">
+            <p className="text-center genty text-3xl mb-4">Sides</p>
+
+            {sidesData.map((data, index) => (
+              <div key={index}>
+                <MenuRow name={data.name} price={data.price} />
+              </div>
+            ))}
           </div>
 
           <div className="border border-light-green p-8 rounded-xl overflow-hidden text-center">

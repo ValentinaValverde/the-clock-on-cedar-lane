@@ -10,7 +10,7 @@ export default function CTASection() {
           take care of the rest.
         </h2>
         <a
-          href="/order"
+          href=""
           className="inline-block mt-8 rounded-full bg-dark-green px-8 py-3 text-light-green"
         >
           Order Now
