@@ -323,3 +323,66 @@ export const friedChickenData = [
     price: '29.99',
   },
 ];
+
+export const foodImages = [
+ {
+    url: '/img-1.png',
+    alt: 'Food Image 1',
+  },
+  {
+    url: '/img-2.png',
+    alt: 'Food Image 2',
+  },
+  {
+    url: '/img-3.png',
+    alt: 'Food Image 3',
+  },
+  {
+    url: '/img-4.png',
+    alt: 'Food Image 4',
+  },
+  {
+    url: '/img-5.png',
+    alt: 'Food Image 5',
+  },
+  {
+    url: '/img-6.png',
+    alt: 'Food Image 6',
+  },
+  {
+    url: '/img-7.png',
+    alt: 'Food Image 7',
+  },
+  {
+    url: '/img-8.png',
+    alt: 'Food Image 8',
+  },
+  {
+    url: '/img-9.png',
+    alt: 'Food Image 9',
+  },
+    {
+    url: '/img-10.png',
+    alt: 'Food Image 10',
+  },
+  {
+    url: '/img-11.png',
+    alt: 'Food Image 11',
+  },
+  {
+    url: '/img-12.png',
+    alt: 'Food Image 12',
+  },
+    {
+    url: '/img-13.png',
+    alt: 'Food Image 13',
+  },
+    {
+    url: '/img-14.png',
+    alt: 'Food Image 14',
+  },
+    {
+    url: '/img-15.png',
+    alt: 'Food Image 15',
+  },
+]
