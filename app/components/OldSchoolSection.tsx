@@ -16,12 +16,12 @@ export default function Hero() {
         </p>
 
         <Image
-          src="https://images.pexels.com/photos/12540668/pexels-photo-12540668.png"
+          src="/the-clock-on-cedar.jpg"
           alt="Delicious food from The Clock on Cedar Lane"
           width={300}
           height={300}
           // className="aspect-square w-full object-cover rounded-lg border border-dark-green"
-          className="w-full h-[400px] object-cover rounded-lg border border-dark-green mt-24"
+          className="w-full h-[600px] object-cover rounded-lg border border-dark-green mt-24"
         />
       </div>
     </div>
