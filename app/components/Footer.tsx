@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <h3 className="mb-4 genty text-3xl">Location</h3>
           <address className="not-italic text-sm space-y-1">
-            <p>1823 Cedar Lane Rd</p>
+            <p>1822 Cedar Lane Rd</p>
             <p>Greenville, SC 29607</p>
           </address>
         </div>
