@@ -10,7 +10,7 @@ export default function CTASection() {
           take care of the rest.
         </h2>
         <a
-          href=""
+          href="https://www.doordash.com/store/the-clock-on-cedar-lane-greenville-35390345/75875347/"
           className="inline-block mt-8 rounded-full px-8 py-3 text-light-green bg-dark-green hover:bg-black transition duration-300"
         >
           Order Now
