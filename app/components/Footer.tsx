@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-black py-24 w-full flex justify-center items-center">
+    <footer className="bg-black py-24 w-full flex flex-col justify-center items-center">
+     
       <nav className="w-2/3 grid grid-cols-1 md:grid-cols-3 gap-12 text-light-green">
         <div>
           <h3 className="mb-4 genty text-3xl">Hours</h3>
@@ -37,6 +38,11 @@ export default function Footer() {
           </ul>
         </div>
       </nav>
+
+       <div className="text-light-green text-center mt-24 text-xs">
+        <p>Copyright © 2026 The Clock on Cedar Lane.</p>
+        <span>Made by</span> <a href="https://www.valentinavalverde.com/" target="_blank">Val</a>
+      </div>
     </footer>
   );
 }
