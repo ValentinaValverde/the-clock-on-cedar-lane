@@ -56,51 +56,51 @@ export const sidesData = [
 export const burgersData = [
   {
     name: 'Hamburger',
-    sandwichPrice: '4.80',
-    platePrice: '8.05',
+    sandwichPrice: '5.25',
+    platePrice: '8.50',
   },
   {
     name: 'Cheeseburger',
-    sandwichPrice: '4.95',
-    platePrice: '8.30',
+    sandwichPrice: '5.25',
+    platePrice: '8.50',
   },
   {
     name: 'Chili Hamburger',
-    sandwichPrice: '5.50',
-    platePrice: '8.75',
+    sandwichPrice: '5.75',
+    platePrice: '8.99',
   },
   {
     name: 'Chili Cheeseburger',
-    sandwichPrice: '5.70',
-    platePrice: '8.95',
+    sandwichPrice: '5.95',
+    platePrice: '9.20',
   },
   {
     name: 'Bacon Hamburger',
-    sandwichPrice: '6.05',
-    platePrice: '9.30',
+    sandwichPrice: '6.30',
+    platePrice: '9.55',
   },
   {
     name: 'Bacon Cheeseburger',
-    sandwichPrice: '6.15',
-    platePrice: '9.40',
+    sandwichPrice: '6.40',
+    platePrice: '9.65',
   },
   {
     name: 'Double Hamburger',
-    sandwichPrice: '7.20',
-    platePrice: '10.45',
+    sandwichPrice: '7.45',
+    platePrice: '10.70',
   },
   {
     name: 'Double Cheeseburger',
-    sandwichPrice: '7.45',
-    platePrice: '10.70',
+    sandwichPrice: '7.75',
+    platePrice: '10.99',
   },
 ];
 
 export const sandwichesData = [
   {
     name: 'Patty Melt',
-    sandwichPrice: '6.25',
-    platePrice: '9.50',
+    sandwichPrice: '6.50',
+    platePrice: '9.75',
   },
   {
     name: 'Grilled Cheese',
@@ -109,8 +109,8 @@ export const sandwichesData = [
   },
   {
     name: 'B.L.T.',
-    sandwichPrice: '5.35',
-    platePrice: '8.60',
+    sandwichPrice: '5.50',
+    platePrice: '8.75',
   },
   {
     name: 'Turkey',
@@ -124,13 +124,13 @@ export const sandwichesData = [
   },
   {
     name: 'Grilled Chicken',
-    sandwichPrice: '6.30',
-    platePrice: '9.55',
+    sandwichPrice: '6.50',
+    platePrice: '9.75',
   },
   {
     name: 'Chicken Fillet',
-    sandwichPrice: '5.80',
-    platePrice: '9.05',
+    sandwichPrice: '5.95',
+    platePrice: '9.20',
   },
   {
     name: 'Flounder',
@@ -139,64 +139,64 @@ export const sandwichesData = [
   },
   {
     name: 'Gyro',
-    sandwichPrice: '7.75',
-    platePrice: '10.99',
+    sandwichPrice: '7.99',
+    platePrice: '11.25',
   },
   {
     name: 'Chicken Gyro',
-    sandwichPrice: '7.75',
-    platePrice: '10.99',
+    sandwichPrice: '7.99',
+    platePrice: '11.25',
   },
   {
     name: 'Bacon Swiss Grilled Ck.',
-    sandwichPrice: '7.15',
-    platePrice: '10.40',
+    sandwichPrice: '7.45',
+    platePrice: '10.70',
   },
   {
     name: 'Hot Dog (ALL BEEF)',
-    sandwichPrice: '3.10',
-    platePrice: '6.35',
+    sandwichPrice: '3.25',
+    platePrice: '6.75',
   },
   {
     name: 'Corn Dog',
-    sandwichPrice: '2.90',
-    platePrice: '6.15',
+    sandwichPrice: '2.99',
+    platePrice: '6.25',
   },
 ];
 
 export const clubsData = [
   {
     name: 'Baby Club',
-    sandwichPrice: '7.20',
-    platePrice: '10.45',
+    sandwichPrice: '7.45',
+    platePrice: '10.70',
   },
   {
     name: 'Grilled Chicken Club',
-    sandwichPrice: '7.45',
-    platePrice: '10.70',
+    sandwichPrice: '7.70',
+    platePrice: '10.95',
   },
   {
     name: 'Chicken Filet Club',
-    sandwichPrice: '7.45',
-    platePrice: '10.70',
+    sandwichPrice: '7.70',
+    platePrice: '10.95',
   },
   {
     name: 'Texas Club',
-    sandwichPrice: '7.45',
-    platePrice: '10.70',
+    sandwichPrice: '7.70',
+    platePrice: '10.95',
   },
 ];
 
 export const subsData = [
   {
     name: 'Philly Steak',
-    sandwichPrice: '8.99',
-    platePrice: '12.25',
+    sandwichPrice: '9.25',
+    platePrice: '12.50',
   },
   {
     name: 'Chicken Philly',
-    sandwichPrice: '8.99',
-    platePrice: '12.25',
+    sandwichPrice: '9.25',
+    platePrice: '12.50',
   },
   {
     name: 'Italian',
@@ -215,8 +215,8 @@ export const subsData = [
   },
   {
     name: 'Baby Club',
-    sandwichPrice: '8.99',
-    platePrice: '12.25',
+    sandwichPrice: '9.25',
+    platePrice: '12.50',
   },
 ];
 
@@ -227,11 +227,11 @@ export const saladsData = [
   },
   {
     name: 'Grilled Chicken',
-    price: '9.99',
+    price: '10.25',
   },
   {
     name: 'Chicken Finger',
-    price: '9.50',
+    price: '9.75',
   },
   {
     name: 'Greek',
@@ -261,23 +261,23 @@ export const breakfastSandwichesData = [
 export const dinnersData = [
   {
     name: 'Hamburger Steak',
-    price: '8.95',
+    price: '9.99',
   },
   {
     name: 'Steak Fingers',
-    price: '9.95',
+    price: '10.25',
   },
   {
     name: 'Chicken Fingers',
-    price: '9.95',
+    price: '9.99',
   },
   {
     name: 'Grilled Chicken Fingers',
-    price: '11.25',
+    price: '11.50',
   },
   {
     name: 'Greek Chicken',
-    price: '12.99',
+    price: '11.99',
   },
   {
     name: '2 pc Flounder',
@@ -285,42 +285,42 @@ export const dinnersData = [
   },
   {
     name: '2 pc White',
-    price: '9.99',
+    price: '12.50',
   },
   {
     name: '2 pc Dark',
-    price: '8.99',
+    price: '10.25',
   },
   {
     name: '4 pc White',
-    price: '14.49',
+    price: '15.99',
   },
   {
     name: '4 pc Dark',
-    price: '12.49',
+    price: '13.99',
   },
 ];
 
 export const friedChickenData = [
   {
     name: '8 pc Dark',
-    price: '14.99',
+    price: '17.99',
   },
   {
     name: '8 pc White',
-    price: '18.99',
+    price: '20.99',
   },
   {
     name: '8 pc Mix',
-    price: '16.99',
+    price: '18.99',
   },
   {
     name: '12 pc Mix',
-    price: '22.99',
+    price: '25.99',
   },
   {
     name: '16 pc Mix',
-    price: '29.99',
+    price: '32.99',
   },
 ];
 
