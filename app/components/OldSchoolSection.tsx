@@ -9,10 +9,7 @@ export default function Hero() {
         </h2>
 
         <p className="sm:max-w-1/2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. 
+          Good food brings people together. Whether you’re here for a quick bite or a long catch-up, every plate is made to be shared, remembered, and ordered again.
         </p>
 
         <Image
